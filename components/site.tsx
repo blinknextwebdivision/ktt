@@ -100,7 +100,13 @@ export function Footer() {
         <a href={whatsappLinks.general} target="_blank" rel="noreferrer">
           Phone: {whatsappNumberDisplay}
         </a>
-        <div style={{ marginTop: 6 }}>Built with love and caffeine by BlinkNext. © 2025 by KTT.</div>
+        <div style={{ marginTop: 6 }}>
+          Built by{' '}
+          <a href="https://www.blinknext.in/" target="_blank" rel="noreferrer">
+            Blinknext
+          </a>
+          . © 2026 Kalaam Tours & Travels. All rights reserved.
+        </div>
       </div>
     </footer>
   );
